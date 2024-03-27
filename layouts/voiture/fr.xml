@@ -13,7 +13,7 @@
 	<layout name="portrait">
 		<row>
 			<button type="tag" label="···  Vitesst090  ···" icon="vitesse-icone/France_road_sign_B14__90_.png"/>
-			<button type="tag" label="···  Maxspeed 80  ···" icon="maxspeed_icons/80.png"/>
+			<button type="tag" label="···  Maxspeed 80  ···" icon="maxspeed_icons/800.png"/>
 			<button type="tag" label="···  Maxspeed End  ···" icon="maxspeed_icons/end.png"/>
 		</row>
 		<row>
