@@ -1,7 +1,7 @@
-## Voiture - Cartographie en roulant
+# Voiture - Cartographie en roulant
 Ce layout est fait pour une cartographie des éléments routiers.
 
-## Architecture
+# Architecture
 4 Catégories :
 - Vitesse
 - Régulation trafic (feu, stop, cédez le passage)
@@ -28,6 +28,10 @@ Sur un node avec :
 
     traffic_sign=FR:B14[50]
     direction=*
+## Travail en cours
+- [ ] Téléchargement des panneaux B14
+- [ ] Ajout dans sous dossier "vitesse-icone"
+- [ ] c
 # Régulation de trafic en France
 Les régulations de trafic en France sont :
 - Feu tricolore de signalisation
