@@ -44,10 +44,10 @@ Sur un node à part du way avec :
     traffic_sign=FR:B14[50]
     direction=* (relatif au nord)
 ## Travail en cours
-- [ ] Téléchargement des panneaux B14
-- [ ] Les mettre en PNG et taille 500x500px
-- [ ] Renommer les fichiers avec "Vitesse_"
-- [ ] Ajout dans sous dossier "voiture_icons"
+- [X] Téléchargement des panneaux B14
+- [X] Les mettre en PNG et taille 500x500px
+- [X] Renommer les fichiers avec "Vitesse_"
+- [X] Ajout dans sous dossier "voiture_icons"
 
 # Régulation de trafic en France
 Les régulations de trafic en France sont :
