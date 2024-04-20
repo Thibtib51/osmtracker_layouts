@@ -12,19 +12,20 @@
         </layout>
 	<layout name="portrait">
 		<row>
-			<button type="tag" label="···  Vitesse à 30  ···" icon="voiture_icons/Vitesse_30.png"/>
-			<button type="tag" label="···  Vitesse à 50  ···" icon="voiture_icons/Vitesse_50.png"/>
-			<button type="tag" label="···  Vitesse à 70  ···" icon="voiture_icons/Vitesse_70.png"/>
+			<button type="tag" label="maxspeed=30" icon="voiture_icons/Vitesse_30.png"/>
+			<button type="tag" label="maxspeed=50" icon="voiture_icons/Vitesse_50.png"/>
+			<button type="tag" label="maxspeed=70" icon="voiture_icons/Vitesse_70.png"/>
+			<button type="tag" label="maxspeed=80" icon="voiture_icons/Vitesse_80.png"/>
 		</row>
 		<row>
-			<button type="tag" label="···  Vitesse à 80  ···" icon="voiture_icons/Vitesse_80.png"/>
-			<button type="tag" label="···  Vitesse à 90  ···" icon="voiture_icons/Vitesse_90.png"/>
-			<button type="tag" label="···  City  ···" icon="maxspeed_icons/city.png"/>
+			<button type="tag" label="maxspeed=90" icon="voiture_icons/Vitesse_90.png"/>
+			<button type="tag" label="maxspeed=110" icon="voiture_icons/Vitesse_110.png"/>
+			<button type="tag" label="maxspeed=130" icon="voiture_icons/Vitesse_130.png"/>
+			<button type="tag" label="maxspeed=00" icon="voiture_icons/Vitesse_00.png"/>
 		</row>
 		<row>
-			<button type="tag" label="···  Vitesse à 110 ···" icon="voiture_icons/Vitesse_110.png"/>
-			<button type="tag" label="···  Vitesse à 130  ···" icon="voiture_icons/Vitesse_130.png"/>
-			<button type="tag" label="···  City end  ···" icon="maxspeed_icons/cityend.png"/>
+			<button type="tag" label="Vitesse connu" icon="voiture_icons/Vitesse_co.png"/>
+			<button type="tag" label="traffic_sign=FR:B14[xx]|direction=*" icon="voiture_icons/Vitesse_pa.png"/>
 		</row>
 		<row>
 			<!--<button type="tag" label="···  Maxspeed 60  ···" icon="maxspeed_icons/60.png"/>
