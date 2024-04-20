@@ -28,7 +28,7 @@
 			<button type="tag" label="traffic_sign=FR:B14[xx]|direction=*" icon="voiture_icons/Vitesse_pa.png"/>
 		</row>
 		<row>
-			<button type="tag" label="···  Camera  ···" icon="maxspeed_icons/camera.png"/>
+			<button type="page" label="RETOUR" targetlayout="root" icon="maxspeed_icons/camera.png"/>
 		</row>
         </layout>
 	<layout name="landscape">
