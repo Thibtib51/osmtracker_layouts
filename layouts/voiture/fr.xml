@@ -28,13 +28,6 @@
 			<button type="tag" label="traffic_sign=FR:B14[xx]|direction=*" icon="voiture_icons/Vitesse_pa.png"/>
 		</row>
 		<row>
-			<!--<button type="tag" label="···  Maxspeed 60  ···" icon="maxspeed_icons/60.png"/>
-			<button type="tag" label="···  Maxspeed 120  ···" icon="maxspeed_icons/120.png"/>-->
-			<button type="tag" label="Error"/>
-		</row>
-		<row>
-			<!--<button type="tag" label="···  Maxspeed 70  ···" icon="maxspeed_icons/70.png"/>
-			<button type="tag" label="···  Maxspeed 130  ···" icon="maxspeed_icons/130.png"/>-->
 			<button type="tag" label="···  Camera  ···" icon="maxspeed_icons/camera.png"/>
 		</row>
         </layout>
