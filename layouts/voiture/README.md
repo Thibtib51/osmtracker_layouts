@@ -55,6 +55,11 @@ Les régulations de trafic en France sont :
 - Stop
 - Cédez le passage
 - Passage piéton
+## Travail en cours
+- [X] Téléchargement des panneaux B14
+- [ ] Les mettre en PNG et taille 500x500px
+- [ ] Renommer les fichiers avec "Regul_"
+- [ ] Ajout dans sous dossier "voiture_icons"
 # Rallentissement en France
 Les rallentissement les plus fréquents sont :
 - Dos d'âne
