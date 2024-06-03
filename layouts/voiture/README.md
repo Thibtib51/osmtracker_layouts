@@ -11,6 +11,8 @@ NOK :
 
     <button type="tag" label="···  Maxspid de 80  ···" icon="vitesse-icone/France_road_sign_B14__90_.png"/>
 
+Lien pour la signalisation en France : [LIEN](https://wiki.openstreetmap.org/wiki/FR:Signalisation_routi%C3%A8re_en_France).
+
 # Architecture
 4 Catégories :
 - **[Vitesse]** Vitesse
