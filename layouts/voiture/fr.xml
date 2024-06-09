@@ -20,7 +20,6 @@
 		<row>
 			<button type="tag" label="highway=crossing" icon="voiture_icons/Regul_pieton.png"/>
 			<button type="tag" label="highway=traffic_signals" icon="voiture_icons/Regul_feu.png"/>
-			<button type="tag" label="traffic_calming=yes" icon="voiture_icons/Regul_dos.png"/>
 		</row>
 		<row>
 			<button type="tag" label="priority=forward" icon="voiture_icons/Regul_pascedez.png"/>
