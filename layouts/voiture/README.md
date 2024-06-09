@@ -59,15 +59,20 @@ Les régulations de trafic en France sont :
 - Passage piéton
 ## Travail en cours
 - [X] Téléchargement des panneaux B14
-- [ ] Les mettre en PNG et taille 500x500px
-- [ ] Renommer les fichiers avec "Regul_"
-- [ ] Ajout dans sous dossier "voiture_icons"
+- [X] Les mettre en PNG et taille 500x500px
+- [X] Renommer les fichiers avec "Regul_"
+- [X] Ajout dans sous dossier "voiture_icons"
 # Rallentissement en France
 Les rallentissement les plus fréquents sont :
 - Dos d'âne
-- Coussin berlinois
+- ~~Coussin berlinois~~
 - Chicane priorité avant
 - Chicane priorité arrière
-- Chicane simple
+- ~~Chicane simple~~
+## Travail en cours
+- [X] Téléchargement des panneaux B14
+- [X] Les mettre en PNG et taille 500x500px
+- [X] Renommer les fichiers avec "Rallen_"
+- [X] Ajout dans sous dossier "voiture_icons"
 # État de la route
 Voir Key:smoothness https://wiki.openstreetmap.org/wiki/Key:smoothness
