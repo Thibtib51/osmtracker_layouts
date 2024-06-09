@@ -8,7 +8,7 @@
 		</row>
 		<row>
 			<button type="page" label="Régulation" targetlayout="Regulation" icon="voiture_icons/Regul_stop.png"/>
-			<button type="page" label="Etat de la route" targetlayout="Etat"/>
+			<button type="page" label="Etat de la route" targetlayout="Etat" icon="voiture_icons/Etat_excellent.png"/>
 			<button type="page" label="Vitesse" targetlayout="Vitesse" icon="voiture_icons/Vitesse_pa.png"/>
 		</row>
         </layout>
