@@ -8,7 +8,7 @@
 		</row>
 		<row>
 			<button type="page" label="Régulation" targetlayout="Regulation" icon="voiture_icons/Regul_stop.png"/>
-			<button type="page" label="Rallentissement" targetlayout="Rallentissement"/>
+			<button type="page" label="Etat de la route" targetlayout="Etat"/>
 			<button type="page" label="Vitesse" targetlayout="Vitesse" icon="voiture_icons/Vitesse_pa.png"/>
 		</row>
         </layout>
@@ -22,12 +22,21 @@
 			<button type="tag" label="highway=traffic_signals" icon="voiture_icons/Regul_feu.png"/>
 			<button type="tag" label="traffic_calming=yes" icon="voiture_icons/Regul_dos.png"/>
 		</row>
-        </layout>
-	<layout name="Rallentissement">
 		<row>
-			<button type="tag" label="priority=forward" icon="voiture_icons/Rallen_pascedez.png"/>
-			<button type="tag" label="priority=backward" icon="voiture_icons/Rallen_cedezinv.png"/>
-			<button type="tag" label="traffic_calming=bump" icon="voiture_icons/Rallen_dosdane.png"/>
+			<button type="tag" label="priority=forward" icon="voiture_icons/Regul_pascedez.png"/>
+			<button type="tag" label="priority=backward" icon="voiture_icons/Regul_cedezinv.png"/>
+			<button type="tag" label="traffic_calming=bump" icon="voiture_icons/Regul_dosdane.png"/>
+		</row>
+        </layout>
+	<layout name="Etat">
+		<row>
+			<button type="tag" label="smoothness=excellent" icon="voiture_icons/Etat_excellent.png"/>
+			<button type="tag" label="smoothness=good" icon="voiture_icons/Etat_good.png"/>
+			<button type="tag" label="smoothness=intermediate" icon="voiture_icons/Etat_intermediate.png"/>
+		</row>
+		<row>
+			<button type="tag" label="smoothness=bad" icon="voiture_icons/Etat_bad.png"/>
+			<button type="tag" label="smoothness=very_bad" icon="voiture_icons/Etat_very_bad.png"/>
 		</row>
         </layout>
 	<layout name="Vitesse">
