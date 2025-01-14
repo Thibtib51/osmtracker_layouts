@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+        <layout name="root">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="page" label="Régulation" targetlayout="Regulation" icon="voiture_icons/Regul_stop.png"/>
+			<button type="page" label="Etat de la route" targetlayout="Etat" icon="voiture_icons/Etat_excellent.png"/>
+			<button type="page" label="Vitesse" targetlayout="Vitesse" icon="voiture_icons/Vitesse_pa.png"/>
+		</row>
+        </layout>
+	<layout name="Regulation">
+		<row>
+			<button type="tag" label="highway=give way" icon="voiture_icons/Regul_cedez.png"/>
+			<button type="tag" label="highway=stop" icon="voiture_icons/Regul_stop.png"/>
+		</row>
+		<row>
+			<button type="tag" label="highway=crossing" icon="voiture_icons/Regul_pieton.png"/>
+			<button type="tag" label="highway=traffic_signals" icon="voiture_icons/Regul_feu.png"/>
+		</row>
+		<row>
+			<button type="tag" label="priority=forward" icon="voiture_icons/Regul_pascedez.png"/>
+			<button type="tag" label="priority=backward" icon="voiture_icons/Regul_cedezinv.png"/>
+			<button type="tag" label="traffic_calming=bump" icon="voiture_icons/Regul_dosdane.png"/>
+		</row>
+        </layout>
+	<layout name="Etat">
+		<row>
+			<button type="tag" label="smoothness=excellent" icon="voiture_icons/Etat_excellent.png"/>
+			<button type="tag" label="smoothness=good" icon="voiture_icons/Etat_good.png"/>
+			<button type="tag" label="smoothness=intermediate" icon="voiture_icons/Etat_intermediate.png"/>
+			<button type="tag" label="smoothness=bad" icon="voiture_icons/Etat_bad.png"/>
+			<button type="tag" label="smoothness=very_bad" icon="voiture_icons/Etat_very_bad.png"/>
+		</row>
+        </layout>
+	<layout name="Vitesse">
+		<row>
+			<button type="tag" label="Vitesse connu" icon="voiture_icons/Vitesse_co.png"/>
+			<button type="tag" label="traffic_sign=FR:B14[xx]|direction=*" icon="voiture_icons/Vitesse_pa.png"/>
+		</row>
+		<row>
+			<button type="tag" label="maxspeed=30" icon="voiture_icons/Vitesse_30.png"/>
+			<button type="tag" label="maxspeed=50" icon="voiture_icons/Vitesse_50.png"/>
+			<button type="tag" label="maxspeed=70" icon="voiture_icons/Vitesse_70.png"/>
+			<button type="tag" label="maxspeed=80" icon="voiture_icons/Vitesse_80.png"/>
+		</row>
+		<row>
+			<button type="tag" label="maxspeed=90" icon="voiture_icons/Vitesse_90.png"/>
+			<button type="tag" label="maxspeed=110" icon="voiture_icons/Vitesse_110.png"/>
+			<button type="tag" label="maxspeed=130" icon="voiture_icons/Vitesse_130.png"/>
+			<button type="tag" label="maxspeed=00" icon="voiture_icons/Vitesse_00.png"/>
+		</row>
+        </layout>
+</layouts>
